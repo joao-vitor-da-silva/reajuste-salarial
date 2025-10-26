@@ -1,0 +1,31 @@
+{
+  "name": "reajuste-salarial",
+  "version": "1.0.0",
+  "description": "Exercicio de reajuste salarial",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joao-vitor-da-silva/reajuste-salarial.git"
+  },
+  "keywords": [
+    "http",
+    "express",
+    "node",
+    "PPI",
+    "js"
+  ],
+  "author": "João Vitor da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joao-vitor-da-silva/reajuste-salarial/issues"
+  },
+  "homepage": "https://github.com/joao-vitor-da-silva/reajuste-salarial#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

@@ -4,6 +4,7 @@ import express from 'express';
 
 const app = express();
 const port = 3000;
+const host ="0.0.0.0";
 
 
 
@@ -93,4 +94,4 @@ app.get('/', (req, res) => {
 });
 
 
-app.listen(port, () => console.log(`Servidor rodando em http://localhost:${port}`));
+app.listen(port, host, () => console.log(`Servidor rodando em http://${host}:${port}`));
